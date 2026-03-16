@@ -1,0 +1,55 @@
+/* CSS untuk Projek UPROP - Ahli 1 */
+
+/* 1. Warna latar belakang supaya tak nampak kosong sangat */
+body {
+    background-color: #f4f7f6;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Hiasan untuk Header/Navbar */
+header {
+    border-bottom: 4px solid #0056b3; /* Garis biru pekat di bawah navbar */
+}
+
+/* 3. Jarakkan sedikit bahagian Main Content dari Header */
+main {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* 4. Hiasan Tajuk (H1, H2, H3) */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* 5. Custom Card (supaya nampak beza sikit dari default Bootstrap) */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayang bila letak mouse */
+}
+
+/* 6. Footer supaya nampak professional sikit */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.combined-section {
+    margin-top: 20px;        /* space from first header */
+    background-color: white; 
+    border-radius: 12px;     
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.combined-section .navbar-custom {
+    border-radius: 12px 12px 0 0; /* round top corners only */
+    margin-bottom: 20px;          /* gap before main content starts */
+}
